@@ -105,6 +105,11 @@ New check aliases
 Changes in existing checks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+- The :doc:`readability-avoid-const-params-in-decls
+  <clang-tidy/checks/readability-avoid-const-params-in-decls>` check does not
+  warn about const value parameters in declarations inside macros anymore by
+  default.
+
 Removed checks
 ^^^^^^^^^^^^^^
 
